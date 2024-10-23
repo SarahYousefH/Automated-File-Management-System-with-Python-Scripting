@@ -1,0 +1,8 @@
+Mv_last /Users/sarahhassouneh/Desktop/Test_Linux/MovFrom /Users/sarahhassouneh/Desktop/Test_Linux/MovTo
+Count /Users/sarahhassouneh/Desktop/Test_Linux/My_Directory_ToCount
+Categorize /Users/sarahhassouneh/Desktop/Test_Linux/TestCategories
+Rename old_file.txt new_file.txt /Users/sarahhassouneh/Desktop/Test_Linux/Directory
+List /Users/sarahhassouneh/Desktop/Test_Linux/My_Directory_ToCount
+Delete file_to_delete.txt /Users/sarahhassouneh/Desktop/Test_Linux/Directory
+Sort /Users/sarahhassouneh/Desktop/Test_Linux/My_Directory_ToCount size
+
