@@ -72,14 +72,9 @@ Our system has been thoroughly tested, including:
 3. Deleting and renaming files.
 4. Categorizing files based on size.
 
-## 🔧 Future Enhancements
+## 🔧 Future Ideas
 - 🔐 **File Encryption**: Implement file encryption for added security.
 - 🗜 **File Compression**: Support automatic compression of large files.
-- 🔍 **Advanced Sorting**: Add more complex sorting mechanisms (e.g., by file type).
 
 ## 👥 Contributors
-- **Sarah Hassouneh** ([@SarahHassouneh](https://github.com/SarahHassouneh)) - Python Scripting, Design, Testing
-- **Asmaa Abed Al-Rahman Fares** ([@AsmaaFares](https://github.com/AsmaaFares)) - Factory Design Pattern, Logging, Testing
-
-## 📄 License
-This project is licensed under the MIT License.
+ **Sarah Hassouneh**  and  **Asmaa Abed Al-Rahman Fares**
