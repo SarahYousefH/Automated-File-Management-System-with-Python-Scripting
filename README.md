@@ -35,18 +35,18 @@ This system is highly configurable through a `config.json` file, allowing you to
 To execute the system, use the following command:
 
 ```bash
-python script_executor.py -i <input_script> -o <output_file>
+python script_executor.py -i input_script -o output_folder_name
 ```
 
-- `-i <input_script>`: Specifies the path to the script file containing the commands.
-- `-o <output_file>`: Specifies the path to the output log or CSV file.
+- `-i input_script`: Specifies the path to the script file containing the commands.
+- `-o output_folder_name`: Specifies the path to the output log or CSV file.
 
 ### Example Script (`script.txt`)
 ```txt
-Mv_last <source_directory> <destination_directory>
-Count <directory>
-Delete <file_to_delete> <directory>
-Categorize <directory>
+Mv_last source_directory destination_directory
+Count directory
+Delete file_to_delete directory
+Categorize directory
 ```
 
 ## 🏗️ Design Patterns
@@ -60,7 +60,7 @@ We use Python’s `logging` module to track the execution of commands. Logs can 
 
 ### Example Logging Command:
 ```bash
-python script_executor.py -i script.txt -o output.log
+python script_executor.py -i script.txt -o outputFile
 ```
 
 Logs are stored in `output.log` (or as CSV if configured). Logs contain information about each command, success or failure status, and are managed to prevent excessive log file buildup.
